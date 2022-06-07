@@ -1,5 +1,4 @@
-#/include "_putchar"
-
+#include "_putchar"
 /**
  * main - Entry point
  *
@@ -14,6 +13,5 @@ int main(void)
 		putchar('h');
 		putchar('a');
 		putchar('r');
-
 		return (0);
 }
