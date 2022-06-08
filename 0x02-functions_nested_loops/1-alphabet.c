@@ -7,7 +7,7 @@
  */
 
 void print_alphabet(void)
-__attribute__( {
+{
 	char j;
 
 	for(j = 'a'; j <= 'z'; j++;) 
@@ -19,5 +19,5 @@ __attribute__( {
 
 	return (0);
 
-});
+};
 print_alphabet();
