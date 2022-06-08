@@ -1,23 +1,21 @@
 #include "main.h"
 
 /**
- * ptintf_alphabet _x10-fuction that prints alphabets ten times
+ * print_alphabet -  _x10-fuction that prints alphabets ten times
  *
- * Return; Always 0.
+ * Return; Nothing
  */
 
 void print_alphabet(void)
 {
 	char j;
 
-	for(j = 'a'; j <= 'z'; j++;) 
+	for (j = 'a'; j <= 'z'; j++)
 	{
 		_putchar(j);
 	}
 
 	_putchar('\n');
-
-	return (0);
 
 }
 
