@@ -6,15 +6,16 @@
 *
 *  Return: String length
 */
+
 int _strlen(char *s)
+
 {
 	int c = 0;
 
 
-	for (; *s != '\0'; s++)
-	{
+	while (*(s + c))
+
 		c++;
-	}
 
 	return (c);
 }
