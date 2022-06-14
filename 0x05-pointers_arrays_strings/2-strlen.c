@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
-* -strlen - Returns the length of a string
-* @s: String to count
+* _strlen - returns the length of a string
+* @s: String to find length of
 *
-*  Return: String length
+*  Return: length of s
 */
 
 int _strlen(char *s)
@@ -18,4 +18,5 @@ int _strlen(char *s)
 		c++;
 
 	return (c);
+
 }
