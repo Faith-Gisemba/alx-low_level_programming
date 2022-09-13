@@ -1,4 +1,4 @@
-#include "putcher.c"
+#include "1-alphabet.c"
 
 /**
  * print_alphabet - check the code
