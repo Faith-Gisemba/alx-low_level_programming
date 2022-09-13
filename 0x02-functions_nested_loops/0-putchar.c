@@ -1,9 +1,9 @@
-#include '0-putchar.c'
+#include "putchar.h"
 
 /**
- * main - Entry point
+ * main - Prints Putchar
  *
- * Return: Always 0
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
