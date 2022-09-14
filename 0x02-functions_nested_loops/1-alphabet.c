@@ -1,21 +1,16 @@
-#include <unistd.h>
-
+#include "main.h"
 /**
- * print_alphabet - check the code
- *
- * Return: Always 0
- */
+*print_alphabet - function to print alphabets
+*
+*Return: 0
+*/
+void print_alphabet(void);
+char c;
 
-void print_alphabet(void)
-{
-	char x = 'y';
-
-	while (x <= 'z')
+	for (c = 'a'; c <= 'z'; c++)
 	{
-		_putchar (x);
-		x++
-
+		_putchar(c);
 	}
-	_putchar ('\n');
 
+	_putchar('\n');
 }
