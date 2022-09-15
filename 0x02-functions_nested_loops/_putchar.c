@@ -1,1 +1,1 @@
-int print_last_digit(int);
+void print_alphabet(void);
