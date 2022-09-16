@@ -16,7 +16,7 @@ _putchar('\n');
 }
 else
 {
-	for (y = size - x; y > 1; y--)
+for (y = size - x; y > 1; y--)
 					{
 for (y = size - x; y > 1; y--)
 {
