@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdout.h>
 
 /**
   * _puts - Prints a string
