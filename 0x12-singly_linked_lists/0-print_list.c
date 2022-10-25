@@ -1,22 +1,27 @@
-#include "main.h"
+#include <stdlib.h>
+#include <stdio.h>
+#include "lists.h"
 
 /**
- * _printf - function my printf
- * @format: string with format to print
- *
- * Return: number of chars that print
- */
-int _printf(const char *format, ...)
+  * print_list - Prints all elements of a list
+  * @h: A linked list
+  *
+  * Return: The number of nodes
+  */
+size_t print_list(const list_t *h)
 {
-	va_list args;
-	int length = 0;
+	size_t count = 0;
 
-	if (format == NULL)
-		return (-1);
+	while (h != NULL)
+	{
+		if (h->str == NULL)
+			printf("[0] (nil)\n");
+		else
+			printf("[%d] %s\n", h->len, h->str);
 
-	va_start(args, format);
+		h = h->next;
+		count++;
+	}
 
-	length = _print_format(format, args);
-	va_end(args);
-	return (length);
+	return (count);
 }
